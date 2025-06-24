@@ -2,8 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def sigmoid(z):
-    ###sigmoid function used in logistic regression
-    # maps all input values to values between 0 and 1###
+    """sigmoid function used in logistic regression maps all input values to values between 0 and 1"""
 
     g = 1/(1+np.exp(-z))
 
